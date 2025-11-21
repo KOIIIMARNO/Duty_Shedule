@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duty Schedule</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="body-item">
+            <label for="floorSelect" class="control-label">Этаж: </label>
+            <div class="select-wrapper">
+                <select name="selectorfloor" id="floorSelect" class="selector">
+                   <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="body-item">
+            <label for="monthSelect" class="control-label">Месяц: </label>
+            <div class="select-wrapper">
+                <select name="selectormonth" id="monthSelect" class="selector">
+                    <option value="Январь">Январь</option>
+                    <option value="Февраль">Февраль</option>
+                    <option value="Март">Март</option>
+                    <option value="Апрель">Апрель</option>
+                    <option value="Май">Май</option>
+                    <option value="Июнь">Июнь</option>
+                    <option value="Июль">Июль</option>
+                    <option value="Август">Август</option>
+                    <option value="Сентябрь">Сентябрь</option>
+                    <option value="Октябрь">Октябрь</option>
+                    <option value="Ноябрь">Ноябрь</option>
+                    <option value="Декабрь">Декабрь</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="body-item">
+            <label for="StartRoom" class="control-label">Начальная комната: </label>
+            <input id="StartRoom" type="text" class="input-first-room">
+        </div>
+
+        <div class="body-item">
+            <label for="WeekDay" class="control-label">День недели: </label>
+            <div class="select-wrapper">
+                <select name="selectweekday" id="WeekDay" class="selector">
+                    <option value="Понедельник">Понедельник</option>
+                    <option value="Вторник">Вторник</option>
+                    <option value="Среда">Среда</option>
+                    <option value="Четверг">Четверг</option>
+                    <option value="Пятница">Пятница</option>
+                    <option value="Суббота">Суббота</option>
+                    <option value="Воскресенье">Воскресенье</option>
+                </select>   
+            </div>
+        </div>
+
+        <button class="create-table-button" onclick="generateTable()">
+            Создать таблицу
+        </button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
