@@ -27,8 +27,8 @@ Single-Page Application для автоматизации составления
 
 1. **Клонируйте репозиторий:**
 ```
-git clone https://github.com/your-username/schedule-generator.git
-cd schedule-generator
+git clone https://github.com/KOIIIMARNO/Duty_Shedule.git
+cd Duty_Shedule
 ```
 2. **Запустите приложение:**
 - Откройте файл ```index.html``` в браузере
